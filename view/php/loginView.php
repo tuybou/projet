@@ -15,6 +15,7 @@
         // Récupérer le login à partir du formulaire POST
         $login = $_POST['Login'];
 
+        
         // Récupérer les informations de l'utilisateur
         $user_info = $loginModel->get_user_info($login);
 
